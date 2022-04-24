@@ -17,6 +17,7 @@
                 <a href="<?php echo URLROOT; ?>/posts/show/<?php echo $post->id ?>" class="btn btn-dark">Read more ...</a>
             </div>
         <?php endforeach; ?>
+        
     </div>
 </div>
 <?php include_once APPROOT . '/views/inc/footer.inc.php' ?>

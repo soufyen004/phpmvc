@@ -3,4 +3,4 @@ Silmple php mvc framework
 
 AppNAme : SharePost Blog
 
-<img scr="./mvc.png">
+<img src="mvc.png">

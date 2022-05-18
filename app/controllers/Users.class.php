@@ -39,7 +39,7 @@ class Users extends Controller
                 $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
                 //user register success
                 if ($this->userModel->register($data['name'], $data['email'], $data['password'])) {
-                    //user added successfully
+                //user added successfully
                     redirect('users/login');
                 } else {
                     die("something went wrong!!");

@@ -112,7 +112,6 @@ class Posts extends Controller
                     $this->view("posts/edit", $data);
                 }
             } else {
-
                 //load the register
                 $data = [
                     'title' => $post->postTitle,

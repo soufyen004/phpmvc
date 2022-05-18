@@ -14,7 +14,7 @@ class Pages extends Controller
             'appTitle' => 'SharePost',
             'appVersion' => '1.0.0'
         ];
-
+        
         $this->view('pages/about_us', $data);
     }
 }
